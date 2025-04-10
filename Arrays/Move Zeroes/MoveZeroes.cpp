@@ -12,6 +12,8 @@ public:
                 arr.push_back(nums[i]);
             }
         }
-
+        for (int i = 0; i < nums.size(); i++) {
+            nums[i] = arr[i];
+        }
     }
 };
