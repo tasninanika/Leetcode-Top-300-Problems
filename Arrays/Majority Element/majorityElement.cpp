@@ -12,6 +12,11 @@ public:
                 c = 1;
             }
 
+            if(c > (nums.size() / 2)) {
+                return nums[i];
+            }
+        }
+
 
     }
 };
