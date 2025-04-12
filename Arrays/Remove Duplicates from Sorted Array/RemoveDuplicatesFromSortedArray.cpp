@@ -5,6 +5,7 @@ public:
         for(int j = 0; j < nums.size() - 1; j++){
             if(nums[i] != nums[j]){
                 i++;
+                nums[i] = nums[j];
             }
         }
 
