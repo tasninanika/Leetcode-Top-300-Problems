@@ -10,7 +10,5 @@ public:
         }
 
         return profit;
-
     }
 };
-
