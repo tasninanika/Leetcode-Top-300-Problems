@@ -15,6 +15,7 @@ public:
         right = k - 1;
         while (left < right) {
             swap(nums[left], nums[right]);
+            left++;
 
     }
 };
