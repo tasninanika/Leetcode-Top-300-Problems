@@ -17,6 +17,8 @@ public:
             swap(nums[left], nums[right]);
             left++;
             right--;
+        }
+
 
     }
 };
