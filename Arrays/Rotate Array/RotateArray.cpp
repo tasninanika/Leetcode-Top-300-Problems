@@ -11,6 +11,7 @@ public:
             right--;
         }
 
+        left = 0;
 
     }
 };
