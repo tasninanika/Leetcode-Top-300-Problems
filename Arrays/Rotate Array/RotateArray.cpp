@@ -24,6 +24,7 @@ public:
         while (left < right) {
             swap(nums[left], nums[right]);
             left++;
-
+            right--;
+        }
     }
 };
