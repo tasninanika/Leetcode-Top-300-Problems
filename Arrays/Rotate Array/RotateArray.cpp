@@ -19,6 +19,7 @@ public:
             right--;
         }
 
+        left = k;
 
     }
 };
