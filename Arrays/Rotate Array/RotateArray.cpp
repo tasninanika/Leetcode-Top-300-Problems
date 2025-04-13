@@ -13,6 +13,7 @@ public:
 
         left = 0;
         right = k - 1;
+        while (left < right) {
 
     }
 };
