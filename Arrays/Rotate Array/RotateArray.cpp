@@ -12,6 +12,7 @@ public:
         }
 
         left = 0;
+        right = k - 1;
 
     }
 };
