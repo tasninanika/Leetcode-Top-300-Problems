@@ -4,7 +4,7 @@ public:
         int n = nums.size();
         k %= n;
 
+        int left = 0, right = n - 1;
 
     }
 };
-
