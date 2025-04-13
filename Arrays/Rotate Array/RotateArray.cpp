@@ -21,6 +21,7 @@ public:
 
         left = k;
         right = n - 1;
+        while (left < right) {
 
     }
 };
