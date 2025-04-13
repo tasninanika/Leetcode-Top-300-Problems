@@ -20,6 +20,7 @@ public:
         }
 
         left = k;
+        right = n - 1;
 
     }
 };
