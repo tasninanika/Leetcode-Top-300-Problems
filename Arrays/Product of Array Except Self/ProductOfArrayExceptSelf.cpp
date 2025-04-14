@@ -10,6 +10,7 @@ public:
             prefix *= nums[i];
         }
 
+        int suffix = 1;
 
     }
 };
