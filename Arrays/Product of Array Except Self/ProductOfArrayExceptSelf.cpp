@@ -4,6 +4,7 @@ public:
         int n = nums.size();
         vector<int> answer(n, 1);
 
+        int prefix = 1;
 
     }
 };
