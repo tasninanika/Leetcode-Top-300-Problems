@@ -7,5 +7,6 @@ public:
                 maxProfit += (prices[i] - prices[i - 1]);
             }
         }
+        return maxProfit;
     }
 };
