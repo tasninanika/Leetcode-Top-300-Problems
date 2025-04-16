@@ -9,6 +9,9 @@ public:
                 c++;
                 result += c;
             }
+            else{
+                c = 0;
+            }
 
         }
     }
