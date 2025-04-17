@@ -8,6 +8,11 @@ public:
                 first = nums[i];
             } else if (nums[i] <= second) {
                 second = nums[i];
+            } else {
+                c++;
+            }
+        }
+
 
     }
 };
