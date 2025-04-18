@@ -11,6 +11,7 @@ public:
             else if(nums[i] == min_num){
                 min_num++;
             }
-
+        }
+        return min_num;
     }
 };
