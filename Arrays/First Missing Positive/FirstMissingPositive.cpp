@@ -8,6 +8,9 @@ public:
             if(nums[i] <= 0){
                 continue;
             }
+            else if(nums[i] == min_num){
+                min_num++;
+            }
 
     }
 };
