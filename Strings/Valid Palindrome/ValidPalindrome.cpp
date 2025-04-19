@@ -9,6 +9,7 @@ public:
             }
         }
 
+        int i = 0, j = temp_string.size() - 1;
 
     }
 };
