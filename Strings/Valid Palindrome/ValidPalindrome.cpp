@@ -4,6 +4,11 @@ public:
         string temp_string = "";
 
         for(int i = 0; i < s.size(); i++){
+            if(isalnum(s[i])){
+                temp_string += tolower(s[i]);
+            }
+        }
+
 
     }
 };
