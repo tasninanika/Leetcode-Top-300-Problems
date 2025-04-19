@@ -14,7 +14,11 @@ public:
             if(temp_string[i] != temp_string[j]){
                 return false;
             }
+            i++;
+            j--;
+        }
 
+        return true;
     }
 };
 
