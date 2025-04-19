@@ -8,5 +8,6 @@ public:
             }
             j++;
         }
+        return i == s.size();
     }
 };
