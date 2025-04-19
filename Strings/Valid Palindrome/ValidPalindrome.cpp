@@ -11,6 +11,9 @@ public:
 
         int i = 0, j = temp_string.size() - 1;
         while(i < j){
+            if(temp_string[i] != temp_string[j]){
+                return false;
+            }
 
     }
 };
