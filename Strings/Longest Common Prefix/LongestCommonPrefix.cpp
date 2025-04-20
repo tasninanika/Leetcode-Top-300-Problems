@@ -4,5 +4,7 @@ public:
          if (strs.empty()) {
             return "";
         }
+        string macthing_word = strs[0];
+
     }
 };
