@@ -9,6 +9,9 @@ public:
         int direction = 1;
         for (int i = 0; i < s.length(); i++) {
             rows[currRow] += s[i];
+            if (currRow == 0){
+                direction = 1;
+            }
         }
 
     }
