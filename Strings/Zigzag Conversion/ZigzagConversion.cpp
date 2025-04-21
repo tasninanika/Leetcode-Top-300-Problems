@@ -8,6 +8,8 @@ public:
         int currRow = 0;
         int direction = 1;
         for (int i = 0; i < s.length(); i++) {
+            rows[currRow] += s[i];
+        }
 
     }
 };
