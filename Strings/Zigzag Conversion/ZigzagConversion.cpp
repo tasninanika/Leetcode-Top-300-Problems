@@ -12,6 +12,9 @@ public:
             if (currRow == 0){
                 direction = 1;
             }
+            if (currRow == numRows - 1){
+                direction = -1;
+            }
         }
 
     }
