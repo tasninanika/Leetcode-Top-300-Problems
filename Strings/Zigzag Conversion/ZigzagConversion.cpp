@@ -18,7 +18,9 @@ public:
             currRow += direction;
         }
         string result = "";
-
+        for (int i = 0; i < numRows; i++) {
+            result += rows[i];
+        }
 
     }
 };
