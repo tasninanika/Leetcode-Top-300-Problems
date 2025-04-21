@@ -21,6 +21,6 @@ public:
         for (int i = 0; i < numRows; i++) {
             result += rows[i];
         }
-
+        return result;
     }
 };
