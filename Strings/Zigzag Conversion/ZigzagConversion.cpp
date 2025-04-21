@@ -6,6 +6,7 @@ public:
         }
         vector<string> rows(numRows);
         int currRow = 0;
+        int direction = 1;
 
     }
 };
