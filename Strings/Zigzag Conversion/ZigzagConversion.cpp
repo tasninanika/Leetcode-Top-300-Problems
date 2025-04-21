@@ -16,8 +16,9 @@ public:
                 direction = -1;
             }
             currRow += direction;
-
         }
+        string result = "";
+
 
     }
 };
