@@ -4,5 +4,6 @@ public:
         if (numRows == 1 || s.length() <= numRows){
             return s;
         }
+        vector<string> rows(numRows);
     }
 };
