@@ -5,5 +5,7 @@ public:
             return s;
         }
         vector<string> rows(numRows);
+        int currRow = 0;
+
     }
 };
