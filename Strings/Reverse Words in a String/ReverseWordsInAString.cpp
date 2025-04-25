@@ -23,5 +23,7 @@ public:
             }
             temp += word;
         }
+
+        s = temp;
     }
 };
