@@ -21,6 +21,7 @@ public:
             if(temp != ""){
                 temp += ' ';
             }
+            temp += word;
         }
     }
 };
