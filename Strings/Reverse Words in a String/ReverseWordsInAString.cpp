@@ -12,7 +12,10 @@ public:
             if(i >= n){
                 break;
             }
-            string word;
+            string word = " ";
+            while(i < n && s[i] != ' '){
+
+            }
         }
     }
 };
