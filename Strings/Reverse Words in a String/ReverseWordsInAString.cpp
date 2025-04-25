@@ -19,7 +19,7 @@ public:
             }
 
             if(temp != ""){
-
+                temp += ' ';
             }
         }
     }
