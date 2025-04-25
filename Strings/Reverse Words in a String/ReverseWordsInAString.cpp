@@ -12,6 +12,7 @@ public:
             if(i >= n){
                 break;
             }
+            string word;
         }
     }
 };
