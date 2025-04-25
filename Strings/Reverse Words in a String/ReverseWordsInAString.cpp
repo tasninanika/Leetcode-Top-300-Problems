@@ -41,6 +41,7 @@ public:
                     l++;
                     r--;
                 }
+                start = i + 1;
             }
         }
     }
