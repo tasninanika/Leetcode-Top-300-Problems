@@ -37,7 +37,9 @@ public:
             if(i == s.size() || s[i] == ' '){
                 int l = start, r = i - 1;
                 while(l < r){
-
+                    swap(s[l], s[r]);
+                    l++;
+                    r--;
                 }
             }
         }
