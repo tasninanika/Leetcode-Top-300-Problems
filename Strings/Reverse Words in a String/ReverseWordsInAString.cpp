@@ -9,6 +9,9 @@ public:
             while(i < n && s[i] == ' '){
                 i++;
             }
+            if(i >= n){
+
+            }
         }
     }
 };
