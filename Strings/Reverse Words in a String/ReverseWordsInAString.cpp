@@ -7,7 +7,7 @@ public:
 
         while(i < n){
             while(i < n && s[i] == ' '){
-
+                i++;
             }
         }
     }
