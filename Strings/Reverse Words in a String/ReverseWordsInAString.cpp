@@ -31,5 +31,7 @@ public:
             left++;
             right--;
         }
+
+        int start = 0;
     }
 };
