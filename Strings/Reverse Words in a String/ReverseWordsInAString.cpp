@@ -4,5 +4,9 @@ public:
         int n = s.size();
         string temp = "";
         int i = 0;
+
+        while(i < n){
+
+        }
     }
 };
