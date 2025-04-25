@@ -10,7 +10,7 @@ public:
                 i++;
             }
             if(i >= n){
-
+                break;
             }
         }
     }
