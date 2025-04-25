@@ -35,7 +35,7 @@ public:
         int start = 0;
         for(int i = 0; i <= s.size(); i++){
             if(i == s.size() || s[i] == ' '){
-
+                int l = start, r = i - 1;
             }
         }
     }
