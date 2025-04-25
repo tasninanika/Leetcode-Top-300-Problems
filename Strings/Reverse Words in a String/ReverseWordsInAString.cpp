@@ -17,6 +17,10 @@ public:
                 word += s[i];
                 i++;
             }
+
+            if(temp != ""){
+
+            }
         }
     }
 };
