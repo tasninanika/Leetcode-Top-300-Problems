@@ -15,6 +15,7 @@ public:
         int n = words.size();
         for(int i = 0; i < 30; i++) {
             int idx = rand() % words.size();
+            int matchedVal = master.guess(words[idx]);
 
 
 
