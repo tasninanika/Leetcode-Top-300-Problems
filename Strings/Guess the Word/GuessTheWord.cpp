@@ -19,6 +19,8 @@ public:
             if(matchedVal == 6) {
                     break;
             }
+            vector<string> candidates;
+
 
 
 
