@@ -28,6 +28,7 @@ public:
                 }
             }
             words = move(candidates);
+        }
 
 
 
