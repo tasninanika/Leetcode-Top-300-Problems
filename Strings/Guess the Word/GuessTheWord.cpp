@@ -7,7 +7,7 @@ public:
                     c++;
                 }
             }
-            return ans;
+            return c;
     }
 
     void findSecretWord(vector<string>& words, Master& master) {
