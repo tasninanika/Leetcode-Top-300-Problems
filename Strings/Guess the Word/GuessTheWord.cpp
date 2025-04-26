@@ -23,7 +23,9 @@ public:
             string guessedWord = words[idx];
             for (int i = 0; i < words.size(); ++i) {
                 int match = findMatchCount(guessedWord, words[i]);
-                if (match == matchedVal) {
+                if (match == matchedVal){
+                    candidates.push_back(words[i]);
+
 
 
 
