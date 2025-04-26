@@ -26,6 +26,7 @@ public:
                 if (match == matchedVal){
                     candidates.push_back(words[i]);
                 }
+            }
 
 
 
