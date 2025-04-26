@@ -21,6 +21,8 @@ public:
             }
             vector<string> candidates;
             string guessedWord = words[idx];
+            for (int i = 0; i < words.size(); ++i) {
+
 
 
 
