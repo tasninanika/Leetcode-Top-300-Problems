@@ -12,6 +12,7 @@ public:
 
     void findSecretWord(vector<string>& words, Master& master) {
         srand(time(0));
+        int n = words.size();
 
 
 
