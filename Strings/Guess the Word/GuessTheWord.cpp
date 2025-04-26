@@ -27,6 +27,8 @@ public:
                     candidates.push_back(words[i]);
                 }
             }
+            words = move(candidates);
+
 
 
 
