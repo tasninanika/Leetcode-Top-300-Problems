@@ -20,6 +20,7 @@ public:
                     break;
             }
             vector<string> candidates;
+            string guessedWord = words[idx];
 
 
 
