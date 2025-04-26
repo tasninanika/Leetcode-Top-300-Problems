@@ -7,7 +7,9 @@ public:
                 if (s1[i] == s2[i]){
                     ans++;
                 }
-                return ans;
+            }
+            return ans;
+        }
 
 
 
