@@ -25,6 +25,7 @@ public:
                 int match = findMatchCount(guessedWord, words[i]);
                 if (match == matchedVal){
                     candidates.push_back(words[i]);
+                }
 
 
 
