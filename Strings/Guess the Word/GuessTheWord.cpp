@@ -11,6 +11,7 @@ public:
     }
 
     void findSecretWord(vector<string>& words, Master& master) {
+        unordered_set<string> st(words.begin(), words.end());
 
 
 
