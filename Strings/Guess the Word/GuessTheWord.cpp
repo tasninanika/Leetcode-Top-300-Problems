@@ -14,6 +14,7 @@ public:
         srand(time(0));
         int n = words.size();
         for(int i = 0; i < 30; i++) {
+            int idx = rand() % words.size();
 
 
 
