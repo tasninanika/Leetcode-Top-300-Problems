@@ -5,6 +5,6 @@ public:
         for(int i = 0; i < nums.size(); i++){
             single_value ^= nums[i];
         }
-
+        return single_value;
     }
 };
