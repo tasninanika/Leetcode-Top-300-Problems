@@ -9,6 +9,5 @@ public:
             n >>= 1;
         }
         return c;
-
     }
 };
