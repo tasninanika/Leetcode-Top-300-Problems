@@ -8,5 +8,14 @@ public:
         }
 
         vector<int> result;
+
+        for (int i = 0; i < nums.size(); i++) {
+            if (frequency[nums[i]] == 1) {
+                result.push_back(nums[i]);
+                frequency[nums[i]] = 0;
+            }
+        }
+
+        return result;
     }
 };
