@@ -7,5 +7,6 @@ public:
             frequency[nums[i]]++;
         }
 
+        vector<int> result;
     }
 };
