@@ -8,6 +8,7 @@ public:
             mp[word].push_back(x);
         }
         vector<vector<string>> ans;
+        for(auto x: mp){
 
     }
 };
