@@ -4,6 +4,7 @@ public:
         unordered_map<string, vector<string>> mp;
         for(auto x: strs){
             string word = x;
+            sort(word.begin(), word.end());
 
     }
 };
