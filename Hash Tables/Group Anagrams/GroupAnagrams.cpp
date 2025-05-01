@@ -6,6 +6,7 @@ public:
             string word = x;
             sort(word.begin(), word.end());
             mp[word].push_back(x);
+        }
 
     }
 };
