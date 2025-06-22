@@ -16,7 +16,6 @@ public:
         for (auto& p : count) {
             maxBalloons = min(maxBalloons, p.second);
         }
-
         return maxBalloons;
     }
 };
