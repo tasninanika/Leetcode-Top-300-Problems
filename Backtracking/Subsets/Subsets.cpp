@@ -12,6 +12,9 @@ public:
 
 
     vector<vector<int>> subsets(vector<int>& nums) {
-
+        vector<vector<int>> subsets;
+        vector<int> current;
+        backtrack(0, nums, current, subsets);
+        return subsets;
     }
 };
