@@ -8,7 +8,7 @@ public:
             backtrack(i + 1, nums, current, subsets);
             current.pop_back();
         }
-}
+    }
 
 
     vector<vector<int>> subsets(vector<int>& nums) {
