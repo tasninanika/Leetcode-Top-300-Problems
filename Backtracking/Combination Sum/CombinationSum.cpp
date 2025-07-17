@@ -16,6 +16,9 @@ public:
     }
 
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-
+        vector<vector<int>> combinations;
+        vector<int> currentCombination;
+        backtrack(candidates, target, currentCombination, combinations, 0);
+        return combinations;
     }
 };
