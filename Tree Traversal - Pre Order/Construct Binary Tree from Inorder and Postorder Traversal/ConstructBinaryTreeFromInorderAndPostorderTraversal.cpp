@@ -1,4 +1,4 @@
-class Solution2 {
+class Solution {
 public:
     TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
         if (postorder.empty()) return nullptr;
