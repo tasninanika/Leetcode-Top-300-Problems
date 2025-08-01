@@ -1,27 +1,24 @@
 class Solution {
 public:
     int furthestBuilding(vector<int>& heights, int bricks, int ladders) {
-        priority_queue<int, vector<int>, greater<int>> pq;
-
-        for (int i = 0; i < heights.size() - 1; ++i) {
-            int diff = heights[i + 1] - heights[i];
-
-            if (diff > 0) {
-                pq.push(diff);
-                bricks -= diff;
-
-                if (bricks < 0) {
-                    bricks += pq.top();
-                    pq.pop();
-                    ladders--;
-
-                    if (ladders < 0) {
-                        return i;
-                    }
-                }
-            }
-        }
-        return heights.size() - 1;
+        int n = heights.size();
+        return solve(heights, 0, bricks, ladders, n);
     }
 
+    int solve(const vector<int>& heights, int i, int bricks, int ladders, int n) {
+        if (i == n - 1) return i;
+        int diff = heights[i + 1] - heights[i];
+        if (diff > 0) {
+            int ans = i;
+            if (bricks >= diff) {
+                ans = max(ans, solve(heights, i + 1, bricks - diff, ladders, n));
+            }
+            if (ladders > 0) {
+                ans = max(ans, solve(heights, i + 1, bricks, ladders - 1, n));
+            }
+            return ans;
+        } else {
+            return solve(heights, i + 1, bricks, ladders, n);
+        }
+    }
 };
