@@ -6,6 +6,7 @@ public:
         int i=0;
         int j = k-1;
         vector<int> temp = {nums.begin(),nums.begin()+k-1};
+
         sort(temp.begin(),temp.end());
 
         while(j<n){
