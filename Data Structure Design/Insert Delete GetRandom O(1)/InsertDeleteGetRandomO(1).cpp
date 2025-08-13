@@ -1,7 +1,7 @@
 class RandomizedSet {
 private:
-    std::unordered_map<int, int> valToIndex;
-    std::vector<int> elements;
+    unordered_map<int, int> valToIndex;
+    vector<int> elements;
 
 public:
     RandomizedSet() {}
