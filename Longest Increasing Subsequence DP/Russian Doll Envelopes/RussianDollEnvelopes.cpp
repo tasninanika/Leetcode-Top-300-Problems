@@ -16,7 +16,8 @@ public:
             auto it = lower_bound(lis.begin(), lis.end(), height);
             if(it == lis.end()) {
                 lis.push_back(height);
-            } else {
+            }
+            else {
                 *it = height;
             }
         }
