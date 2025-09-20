@@ -5,3 +5,7 @@ public:
         int cols = points[0].size();
 
         vector<long long> dp(cols, 0);
+
+        for (int j = 0; j < cols; j++) {
+            dp[j] = points[0][j];
+        }
