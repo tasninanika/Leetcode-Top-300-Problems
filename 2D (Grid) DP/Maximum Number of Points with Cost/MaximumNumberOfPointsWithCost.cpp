@@ -23,3 +23,7 @@ public:
             for (int j = cols-2; j >= 0; j--) {
                 right[j] = max(right[j+1] - 1, dp[j]);
             }
+
+            for (int j = 0; j < cols; j++) {
+                dp[j] = points[i][j] + max(left[j], right[j]);
+            }
