@@ -9,3 +9,7 @@ public:
         for (int j = 0; j < cols; j++) {
             dp[j] = points[0][j];
         }
+
+        for (int i = 1; i < rows; i++) {
+            vector<long long> left(cols, 0);
+            vector<long long> right(cols, 0);
