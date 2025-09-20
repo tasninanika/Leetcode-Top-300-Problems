@@ -13,3 +13,8 @@ public:
         for (int i = 1; i < rows; i++) {
             vector<long long> left(cols, 0);
             vector<long long> right(cols, 0);
+
+            left[0] = dp[0];
+            for (int j = 1; j < cols; j++) {
+                left[j] = max(left[j-1] - 1, dp[j]);
+            }
