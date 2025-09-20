@@ -27,3 +27,8 @@ public:
             for (int j = 0; j < cols; j++) {
                 dp[j] = points[i][j] + max(left[j], right[j]);
             }
+        }
+
+        return *max_element(dp.begin(), dp.end());
+    }
+};
