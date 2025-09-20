@@ -18,3 +18,8 @@ public:
             for (int j = 1; j < cols; j++) {
                 left[j] = max(left[j-1] - 1, dp[j]);
             }
+
+            right[cols-1] = dp[cols-1];
+            for (int j = cols-2; j >= 0; j--) {
+                right[j] = max(right[j+1] - 1, dp[j]);
+            }
