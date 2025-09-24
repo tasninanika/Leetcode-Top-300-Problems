@@ -14,3 +14,5 @@ public:
         }
         return memo[i][j] = maxPath;
     }
+
+    int longestIncreasingPath(vector<vector<int>>& matrix) {
