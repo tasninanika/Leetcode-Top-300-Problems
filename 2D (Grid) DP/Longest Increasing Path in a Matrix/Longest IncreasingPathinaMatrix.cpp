@@ -19,3 +19,9 @@ public:
         if (matrix.empty()) return 0;
         int maxPath = 0;
         vector<vector<int>> memo(matrix.size(), vector<int>(matrix[0].size(), 0));
+
+        for (int i = 0; i < matrix.size(); ++i) {
+            for (int j = 0; j < matrix[0].size(); ++j) {
+                maxPath = max(maxPath, dfs(matrix, i, j, memo));
+            }
+        }
