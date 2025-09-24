@@ -25,3 +25,7 @@ public:
                 maxPath = max(maxPath, dfs(matrix, i, j, memo));
             }
         }
+
+    return maxPath;
+    }
+};
