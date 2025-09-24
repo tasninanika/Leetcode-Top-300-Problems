@@ -5,3 +5,5 @@ public:
     int dfs(vector<vector<int>>& matrix, int i, int j, vector<vector<int>>& memo) {
         if (memo[i][j] != 0) return memo[i][j];
 
+        int maxPath = 1;
+        for (auto& dir : directions) {
