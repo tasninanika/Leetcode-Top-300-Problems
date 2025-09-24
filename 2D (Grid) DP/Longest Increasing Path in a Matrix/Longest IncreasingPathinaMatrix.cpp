@@ -12,3 +12,5 @@ public:
                 maxPath = max(maxPath, 1 + dfs(matrix, x, y, memo));
             }
         }
+        return memo[i][j] = maxPath;
+    }
