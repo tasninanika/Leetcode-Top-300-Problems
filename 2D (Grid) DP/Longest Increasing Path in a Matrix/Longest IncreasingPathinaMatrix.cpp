@@ -7,3 +7,8 @@ public:
 
         int maxPath = 1;
         for (auto& dir : directions) {
+                int x = i + dir[0], y = j + dir[1];
+            if (x >= 0 && x < matrix.size() && y >= 0 && y < matrix[0].size() && matrix[x][y] > matrix[i][j]) {
+                maxPath = max(maxPath, 1 + dfs(matrix, x, y, memo));
+            }
+        }
