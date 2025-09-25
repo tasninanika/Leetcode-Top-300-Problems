@@ -9,7 +9,8 @@ public:
             for (int j = 1; j <= n; ++j) {
                 if (text1[i - 1] == text2[j - 1]) {
                     current[j] = 1 + prev[j - 1];
-                } else {
+                }
+                else {
                     current[j] = max(prev[j], current[j - 1]);
                 }
             }
