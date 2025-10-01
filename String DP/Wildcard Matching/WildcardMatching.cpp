@@ -13,7 +13,8 @@ public:
                 starIndex = pIndex;
                 sTmp = sIndex;
                 ++pIndex;
-            } else if (starIndex != -1) {
+            }
+            else if (starIndex != -1) {
                 pIndex = starIndex + 1;
                 sIndex = sTmp + 1;
                 sTmp = sIndex;
