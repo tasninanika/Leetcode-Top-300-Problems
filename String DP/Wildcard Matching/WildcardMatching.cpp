@@ -18,7 +18,8 @@ public:
                 pIndex = starIndex + 1;
                 sIndex = sTmp + 1;
                 sTmp = sIndex;
-            } else {
+            }
+            else {
                 return false;
             }
         }
