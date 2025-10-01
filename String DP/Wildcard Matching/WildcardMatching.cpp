@@ -8,7 +8,8 @@ public:
             if (pIndex < p.length() && (p[pIndex] == s[sIndex] || p[pIndex] == '?')) {
                 ++sIndex;
                 ++pIndex;
-            } else if (pIndex < p.length() && p[pIndex] == '*') {
+            }
+            else if (pIndex < p.length() && p[pIndex] == '*') {
                 starIndex = pIndex;
                 sTmp = sIndex;
                 ++pIndex;
