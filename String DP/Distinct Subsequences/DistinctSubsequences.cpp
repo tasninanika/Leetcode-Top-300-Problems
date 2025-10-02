@@ -14,7 +14,8 @@ private:
 
         if (s[i] == t[j]) {
             dp[i][j] = countSubsequences(s, t, i + 1, j + 1, dp) + countSubsequences(s, t, i + 1, j, dp);
-        } else {
+        }
+        else {
             dp[i][j] = countSubsequences(s, t, i + 1, j, dp);
         }
         return dp[i][j];
