@@ -12,7 +12,8 @@ private:
         if (i == s.size())
             return 0;
 
-        if (dp[i][j] != -1) return dp[i][j];
+        if (dp[i][j] != -1)
+            return dp[i][j];
 
         if (s[i] == t[j]) {
             dp[i][j] = countSubsequences(s, t, i + 1, j + 1, dp) + countSubsequences(s, t, i + 1, j, dp);
