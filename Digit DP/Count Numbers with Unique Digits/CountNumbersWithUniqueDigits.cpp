@@ -7,3 +7,9 @@ public:
         int result = 10;
         int unique_digit_count = 9;
         int available_digits = 9;
+
+        for (int i = 2; i <= n && available_digits > 0; ++i) {
+            unique_digit_count *= available_digits;
+            result += unique_digit_count;
+            available_digits--;
+        }
