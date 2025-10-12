@@ -13,3 +13,7 @@ public:
             result += unique_digit_count;
             available_digits--;
         }
+
+        return result;
+    }
+};
