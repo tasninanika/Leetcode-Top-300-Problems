@@ -13,7 +13,8 @@ public:
             for (auto &d : D) {
                 if (d[0] - '0' < Si) {
                     dp[i] += pow(D.size(), K - i - 1);
-                } else if (d[0] - '0' == Si) {
+                }
+                else if (d[0] - '0' == Si) {
                     dp[i] += dp[i + 1];
                 }
             }
