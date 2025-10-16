@@ -17,3 +17,8 @@ public:
         return memo[A][B];
     }
 
+    double soupServings(int N) {
+        if (N > 5000) return 1.0;
+        return serve(N, N);
+    }
+};
