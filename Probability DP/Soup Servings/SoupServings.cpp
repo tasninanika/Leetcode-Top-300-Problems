@@ -9,3 +9,11 @@ public:
 
         if (memo[A][B] > 0) return memo[A][B];
 
+        memo[A][B] = 0.25 * (serve(A - 100, B) +
+                             serve(A - 75, B - 25) +
+                             serve(A - 50, B - 50) +
+                             serve(A - 25, B - 75));
+
+        return memo[A][B];
+    }
+
