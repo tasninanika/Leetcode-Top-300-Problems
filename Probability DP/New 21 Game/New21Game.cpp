@@ -4,5 +4,8 @@ public:
         if (k == 0 || n >= k - 1 + maxPts)
             return 1.0;
 
+        vector<double> dp(maxPts, 0.0);
+        dp[0] = 1.0;
+
     }
 };
