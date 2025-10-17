@@ -15,6 +15,9 @@ public:
             if (i < k) {
                 windowSum += prob;
             }
+            else {
+                result += prob;
+            }
 
     }
 };
