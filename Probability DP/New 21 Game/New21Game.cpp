@@ -19,5 +19,9 @@ public:
                 result += prob;
             }
 
+            if (i >= maxPts) {
+                windowSum -= dp[i % maxPts];
+            }
+
     }
 };
