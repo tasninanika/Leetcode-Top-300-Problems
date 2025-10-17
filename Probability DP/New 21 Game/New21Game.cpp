@@ -23,5 +23,7 @@ public:
                 windowSum -= dp[i % maxPts];
             }
 
+            dp[i % maxPts] = prob;
+
     }
 };
