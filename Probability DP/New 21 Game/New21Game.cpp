@@ -24,6 +24,6 @@ public:
             }
 
             dp[i % maxPts] = prob;
-
     }
+    return result;
 };
