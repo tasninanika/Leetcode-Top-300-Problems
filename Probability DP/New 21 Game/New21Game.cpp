@@ -9,5 +9,8 @@ public:
 
         double windowSum = 1.0, result = 0.0;
 
+        for (int i = 1; i <= n; i++) {
+            double prob = windowSum / maxPts;
+
     }
 };
