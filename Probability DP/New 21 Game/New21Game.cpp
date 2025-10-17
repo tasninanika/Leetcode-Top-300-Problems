@@ -12,5 +12,9 @@ public:
         for (int i = 1; i <= n; i++) {
             double prob = windowSum / maxPts;
 
+            if (i < k) {
+                windowSum += prob;
+            }
+
     }
 };
