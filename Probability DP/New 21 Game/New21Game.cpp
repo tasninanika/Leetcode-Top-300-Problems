@@ -7,5 +7,7 @@ public:
         vector<double> dp(maxPts, 0.0);
         dp[0] = 1.0;
 
+        double windowSum = 1.0, result = 0.0;
+
     }
 };
