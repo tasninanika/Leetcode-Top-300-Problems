@@ -5,5 +5,6 @@ public:
             return 0;
 
         int n = prices.size();
+        vector<int> held(n, 0), sold(n, 0), rest(n, 0);
     }
 };
