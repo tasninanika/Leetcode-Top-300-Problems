@@ -16,5 +16,7 @@ public:
             sold[i] = held[i - 1] + prices[i];
             rest[i] = max(rest[i - 1], sold[i - 1]);
         }
+
+        return max(sold[n - 1], rest[n - 1]);
     }
 };
