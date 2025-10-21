@@ -16,3 +16,9 @@ public:
             }
             kmp[i] = j;
         }
+
+        int palLen = kmp[temp.size() - 1];
+
+        return rev_s.substr(0, s.size() - palLen) + s;
+    }
+};
