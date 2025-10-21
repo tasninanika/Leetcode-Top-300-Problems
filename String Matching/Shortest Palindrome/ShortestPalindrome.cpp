@@ -11,3 +11,8 @@ public:
             while (j > 0 && temp[i] != temp[j]) {
                 j = kmp[j - 1];
             }
+            if (temp[i] == temp[j]) {
+                j++;
+            }
+            kmp[i] = j;
+        }
