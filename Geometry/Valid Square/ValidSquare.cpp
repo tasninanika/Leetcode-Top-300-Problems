@@ -12,4 +12,7 @@ public:
         return (d[0] > 0 && d[0] == d[1] && d[1] == d[2] && d[2] == d[3]
                && d[4] == d[5] && d[5] > d[0]);
     }
+    int dist(vector<int>& x, vector<int>& y) {
+        return (x[0]-y[0])*(x[0]-y[0]) + (x[1]-y[1])*(x[1]-y[1]);
+    }
 };
