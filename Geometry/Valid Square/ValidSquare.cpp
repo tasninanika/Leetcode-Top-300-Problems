@@ -6,5 +6,7 @@ public:
             dist(p2,p3), dist(p2,p4),
             dist(p3,p4)
         };
+
+        sort(d.begin(), d.end());
     }
 };
