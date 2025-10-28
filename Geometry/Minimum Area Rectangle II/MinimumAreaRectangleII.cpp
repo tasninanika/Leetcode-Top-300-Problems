@@ -22,3 +22,12 @@ public:
 
                         if(mp[xm].find(ym)!=mp[xm].end()){
                             double area1 = sqrt(dx1*dx1 + dy1*dy1)*sqrt(dx2*dx2 + dy2*dy2);
+                            if(area>area1){
+                                area = area1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
