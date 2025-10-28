@@ -30,4 +30,8 @@ public:
                 }
             }
         }
+        if(area == DBL_MAX) return 0.0;
+            return area;
+    }
+};
 
