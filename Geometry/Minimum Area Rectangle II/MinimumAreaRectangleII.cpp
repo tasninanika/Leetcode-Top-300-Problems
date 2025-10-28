@@ -19,3 +19,6 @@ public:
                     if(dx1*dx2 + dy1*dy2 ==0){
                         int xm = dx1 + points[k][0];
                         int ym = dy1 + points[k][1];
+
+                        if(mp[xm].find(ym)!=mp[xm].end()){
+                            double area1 = sqrt(dx1*dx1 + dy1*dy1)*sqrt(dx2*dx2 + dy2*dy2);
