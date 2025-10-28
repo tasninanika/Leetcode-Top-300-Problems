@@ -15,3 +15,7 @@ public:
                     int dx2 = points[k][0]-points[i][0];
                     int dy1 = points[j][1]-points[i][1];
                     int dy2 = points[k][1]-points[i][1];
+
+                    if(dx1*dx2 + dy1*dy2 ==0){
+                        int xm = dx1 + points[k][0];
+                        int ym = dy1 + points[k][1];
