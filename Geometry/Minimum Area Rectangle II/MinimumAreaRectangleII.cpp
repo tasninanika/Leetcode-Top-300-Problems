@@ -5,3 +5,5 @@ public:
         for(auto p: points){
             mp[p[0]].insert(p[1]);
         }
+
+        double area=DBL_MAX;
